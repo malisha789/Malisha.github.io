@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.jpeg" alt="logo">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="doctors.html">DOCTORS</a></li>
+                <li><a href="reservation.html">RESERVATION</a></li>
+                <li><a href="pharmacy.html">PHARMACY</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="person-registration">
+            <h1>Person Registration</h1>
+            <p>Please fill out the registration form below to register as a patient in our hospital.</p>
+            <div class="registration-image">
+            </div>
+        </section>
+
+        <section class="registration-form-section">
+            <h2>Registration</h2>
+            <form class="registration-form">
+                <div class="form-group">
+                    <label for="patient-name">Patient Name:</label>
+                    <input type="text" id="patient-name" name="patient-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="patient-dob">Date of Birth:</label>
+                    <input type="date" id="patient-dob" name="patient-dob" required>
+                </div>
+                <div class="form-group">
+                    <label for="patient-gender">Gender:</label>
+                    <select id="patient-gender" name="gender" required>
+                        <option value="" disabled selected>Select your gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="emergency-contact">Emergency Contact:</label>
+                    <input type="text" id="emergency-contact" name="emergency-contact" required>
+                </div>
+                <div class="form-group">
+                    <label for="insurance-info">Insurance Information:</label>
+                    <textarea id="insurance-info" name="insurance-info" rows="4"></textarea>
+                </div>
+                <div class="buttons">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-logo">
+            <img src="img/logo.jpeg" alt="Logo">
+        </div>
+        <div class="contact-info">
+            <p>Phone: +94 32 2263205<br>
+                Address: Hospital Road, Puttalam<br>
+                Email: lkhospitals@gmail.com</p>
+        </div>
+    </footer>
+</body>
+</html>

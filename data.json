@@ -1,0 +1,41 @@
+{
+    "Analgesics": [
+      { "name": "Paracetamol", "price": 10, "imagePath": "img/Paracetamol.jpg" },
+      { "name": "Ibuprofen", "price": 15, "imagePath": "img/Ibuprofen.jpg" },
+      { "name": "Aspirin", "price": 12, "imagePath": "img/Aspirin.jpg" },
+      { "name": "Naproxen", "price": 18, "imagePath": "img/Naproxen.jpg" },
+      { "name": "Codeine", "price": 20, "imagePath": "img/Codeine.jpg" },
+      { "name": "Tramadol", "price": 25, "imagePath": "img/Tramadol.jpg" }
+    ],
+    "Antibiotics": [
+      { "name": "Amoxicillin", "price": 20, "imagePath": "img/amoxicillin.jpg" },
+      { "name": "Ciprofloxacin", "price": 25, "imagePath": "img/ciprofloxacin.jpg" },
+      { "name": "Doxycycline", "price": 18, "imagePath": "img/doxycycline.jpg" },
+      { "name": "Azithromycin", "price": 22, "imagePath": "img/azithromycin.jpg" },
+      { "name": "Clindamycin", "price": 30, "imagePath": "img/clindamycin.jpg" },
+      { "name": "Erythromycin", "price": 28, "imagePath": "img/erythromycin.jpg" }
+    ],
+    "Antidepressants": [
+      { "name": "Fluoxetine", "price": 30, "imagePath": "img/fluoxetine.jpg" },
+      { "name": "Sertraline", "price": 35, "imagePath": "img/sertraline.jpg" },
+      { "name": "Citalopram", "price": 32, "imagePath": "img/citalopram.jpg" },
+      { "name": "Escitalopram", "price": 34, "imagePath": "img/escitalopram.jpg" },
+      { "name": "Venlafaxine", "price": 40, "imagePath": "img/venlafaxine.jpg" },
+      { "name": "Duloxetine", "price": 38, "imagePath": "img/duloxetine.jpg" }
+    ],
+    "Antihistamines": [
+      { "name": "Loratadine", "price": 8, "imagePath": "img/loratadine.jpg" },
+      { "name": "Cetirizine", "price": 10, "imagePath": "img/cetirizine.jpg" },
+      { "name": "Fexofenadine", "price": 12, "imagePath": "img/fexofenadine.jpg" },
+      { "name": "Diphenhydramine", "price": 14, "imagePath": "img/diphenhydramine.jpg" }
+    ],
+    "Antihypertensives": [
+      { "name": "Amlodipine", "price": 40, "imagePath": "img/amlodipine.jpg" },
+      { "name": "Lisinopril", "price": 45, "imagePath": "img/lisinopril.jpg" },
+      { "name": "Losartan", "price": 42, "imagePath": "img/losartan.jpg" },
+      { "name": "Metoprolol", "price": 38, "imagePath": "img/metoprolol.jpg" },
+      { "name": "Enalapril", "price": 44, "imagePath": "img/enalapril.jpg" },
+      { "name": "Valsartan", "price": 46, "imagePath": "img/valsartan.jpg" }
+    ]
+  }
+  

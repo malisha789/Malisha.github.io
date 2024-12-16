@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor's Page</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="pharmacy.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.jpeg" alt="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="doctors.html">DOCTORS</a></li>
+                <li><a href="reservation.html">RESERVATION</a></li>
+                <li><a href="pharmacy.html">PHARMACY</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="pharmacy">
+            <div class="description">
+                <h2>Pharmacy</h2>
+                <p>LK Pharmacy provides a wide range of prescription medications and personalized care.</p>
+            </div>
+        </section>
+
+        <!-- Medication List -->
+        <h1>Medication List</h1>
+        <div id="content"></div>
+
+        <!-- Selected Items -->
+        <h2>Selected Items</h2>
+        <table id="selectedItemsTable">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" style="text-align:right;">Total:</td>
+                    <td id="totalPrice">$0</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <!-- Buttons -->
+        <div>
+            <button id="addToFavourites">Add to Favourites</button>
+            <button id="buyNow">Buy Now</button>
+            <button id="clearItems">Clear Items</button>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-logo">
+            <img src="img/logo.jpeg" alt="Logo">
+        </div>
+        <div class="contact-info">
+            <p>Phone: +94 32 2263205<br>
+                Address: Hospital Road, Puttalam<br>
+                Email: lkhospitals@gmail.com</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="./pharmacy.js"></script>
+</body>
+</html>
